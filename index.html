@@ -11,18 +11,22 @@
 <body>
   <div class="container">
     <h1>Form Letter</h1>
-    <h2>Please enter your name:</h2>
-    <div class="form-group">
-      <label for="person">A name</label>
-      <input id="person" class="form-control" type="text">
-    </div>
-    <button class=""></button>
-    <div class="panel panel-default hidden">
-      <div class="panel-heading">Hello, <span class="person"></span></div>
-      <div class="panel-body">
+    <h4>Please enter your name:</h4>
+    <form id="form">
+      <div class="form-group">
+        <label for="person">Enter your name:</label>
+        <input id="person" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="card card-default" id="hidden">
+      <div class="card-header">Hello, <span class="person"></span></div>
+      <div class="card-body">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae urna neque. In sed iaculis massa. In eget molestie est, nec bibendum est. Nam luctus maximus metus sit amet condimentum. Donec rhoncus sem ligula, non porta metus rutrum at. Fusce at neque ante. Integer lectus tortor, gravida eu turpis id, vestibulum interdum diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam non magna fringilla, elementum augue sed, fermentum nisi. Cras fringilla sed erat eu convallis. Integer commodo at arcu quis faucibus. Nulla facilisi. Cras eu porta turpis. Fusce magna tortor, egestas vulputate velit non, mattis pulvinar sapien. Aliquam faucibus eu augue quis maximus. Donec ultricies enim a nisl molestie, eu tempor ligula ornare.</p>
       </div>
-
+      <div class="card-footer">
+        <p>Sincerely, Latin Fakeo</p>
+      </div>
     </div>
   </div>
 </body>
